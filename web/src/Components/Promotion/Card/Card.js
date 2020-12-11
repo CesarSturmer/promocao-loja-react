@@ -1,6 +1,11 @@
 import React from "react";
 import "./Card.css";
 
+
+// PromotionCard é meu COMPONENTE AONDE ELE TRATA OS OBJETOS VINDO DA API 
+// PromotionCard = ({ promotion }) recebendo os dados da API como PROPS para pegar cada data.objeto
+
+
 const PromotionCard = ({ promotion }) => (
   <div className="promotion-card">
     <img
